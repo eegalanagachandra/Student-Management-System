@@ -13,7 +13,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Naga@0992",
+        password="YOUR_MYSQL_PASSWORD",
         database="student_management"
     )
 def login():
